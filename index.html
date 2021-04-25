@@ -8,27 +8,45 @@
 
     <style>
         .green{
-            background: rgb(229, 238, 229);
-           
+            background: rgb(242, 245, 242);
+        }
+        .logoContainer{
+            margin-top: 2rem;
+        }
+        .logoText{
+            font-size: 15px;
+            font-weight: 400;
+            text-align: center;
+            color: rgb(110, 110, 110);
+            margin-top: 1.5rem;
+        }
+        .hero{
+            position: relative;
+            margin-top: 3rem;
+        }
+        .heroText{
+            position: absolute;
+            top: 8rem;
+            left: 16rem;
         }
     </style>
 </head>
 <body>
-    <table cellpadding="0" cellspasing="0" border="1" width="600" height="200" align="center" class="green"> <!-- container start-->
+    <table cellpadding="0" cellspasing="0" border="0" width="600" height="200" align="center" class="green"> <!-- container start-->
         <tr>
             <td>
                  <!-- container for logo and h2-->
-                <table cellpadding="0" cellspasing="0" border="1" width="600" align="center">
+                <table cellpadding="0" cellspasing="0" border="0" width="600" align="center" class="logoContainer">
                     <tr>
                         <td>
                            <!-- left line-->
-                           <table cellpadding="0" cellspasing="0" border="1" align="left" width="198" height="50">
+                           <table cellpadding="0" cellspasing="0" border="0" align="left" width="198" height="50">
                                <tr>
                                    <td>
-                                    <table cellpadding="0" cellspasing="0" border="1" width="198" align="left" height="50">
+                                    <table cellpadding="0" cellspasing="0" border="0" width="198" align="left" height="50">
                                         <tr>
                                             <td>
-                                                <p style="border-bottom: 1px solid grey; width: 50px; margin: auto;"></p>
+                                                <p style="border-bottom: 1px solid rgb(136, 135, 135); width: 100px; margin: auto;"></p>
                                             </td>
                                         </tr>
                                     </table>
@@ -39,13 +57,13 @@
                            <!-- left line end-->
 
                            <!-- logo image start-->
-                           <table cellpadding="0" cellspasing="0" border="1" align="left" width="172" height="50">
+                           <table cellpadding="0" cellspasing="0" border="0" align="left" width="172" height="50">
                                <tr>
                                    <td>
-                                    <table cellpadding="0" cellspasing="0" border="1" width="172" align="left">
+                                    <table cellpadding="0" cellspasing="0" border="0" width="172" align="left">
                                         <tr>
                                             <td>
-                                                <img src="logo.jpg" alt="logo image" style="width: 70px; border-radius: 50%; margin-left: auto; margin-right: auto; display: block;">
+                                                <img src="logo.jpg" alt="logo image" style="width: 120px; border-radius: 50%; margin-left: auto; margin-right: auto; display: block; border: 3px solid brown;">
                                             </td>
                                         </tr>
                                     </table>
@@ -56,13 +74,13 @@
                            <!-- logo image end-->
 
                             <!-- right line start -->
-                            <table cellpadding="0" cellspasing="0" border="1" align="left" width="198" height="50">
+                            <table cellpadding="0" cellspasing="0" border="0" align="left" width="198" height="50">
                                 <tr>
                                     <td>
-                                        <table cellpadding="0" cellspasing="0" border="1" width="198" align="left" height="50">
+                                        <table cellpadding="0" cellspasing="0" border="0" width="198" align="left" height="50">
                                             <tr>
                                                 <td>
-                                                    <p style="border-bottom: 1px solid grey; width: 50px; margin: auto;"></p>
+                                                    <p style="border-bottom: 1px solid rgb(136, 135, 135); width: 100px; margin: auto;"></p>
                                                 </td>
                                             </tr>
                                         </table>
@@ -70,11 +88,55 @@
                                 </tr>
                             </table>
                             <!-- right line end -->
+
+                            <!-- h2 text start -->
+                              <table cellpadding="0" cellspasing="0" border="0" width="600" align="center">
+                                  <tr>
+                                      <td>
+                                          <table cellpadding="0" cellspasing="0" border="0" width="600" align="center">
+                                              <tr>
+                                                  <td>
+                                                      <h2 class="logoText">WHAT IS THE MOST FASCINATING THING ABOUT SUMMER?</h2>
+                                                  </td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                                  </tr>
+                              </table>
+                            <!-- h2 text end -->
                         </td>
                     </tr>
                 </table>
                <!-- container for logo and h2 end-->
+  
+               <!-- hero image start -->
+                <table cellpadding="0" cellspasing="0" border="0" width="400" height="200" align="center" class="hero">
+                    <tr>
+                        <td>
+                            <img src="hero.jpg" alt="hero image" width="500" height="340">
 
+                             <table cellpadding="0" cellspasing="0" border="0" width="250" class="heroText">
+                                 <tr>
+                                     <td>
+                                         <!-- text in hero start-->
+                                         <table cellpadding="0" cellspasing="0" border="0" align="center" style="font-size: 14px; color: brown;">
+                                             <tr>
+                                                 <td>
+                                                      <h3>SUMMER'S COMING</h3>
+                                                      <p style="border-bottom: 1px solid brown; width: 70px; margin: auto;" ></p>
+                                                      <h4 align="center" style="font-weight: 200;">sunny days ahead</h4>
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                         <!-- text in hero end -->
+                                     </td>
+                                 </tr>
+                             </table>
+
+                        </td>
+                    </tr>
+                </table>
+               <!-- hero image end s-->
 
             </td>
         </tr>
